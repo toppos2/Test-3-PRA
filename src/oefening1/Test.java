@@ -6,7 +6,7 @@ public class Test {
         w.showList();
         System.out.println("Overview characters in list");
         w.showCharactersInList();
-        System.out.println("Overview consonants NOT in lst");
+        System.out.println("Overview consonants NOT in list");
         w.showConsonantsNotInList();
         System.out.println("Overview consonants in list with a given occurence");
         w.consonantOccurence(2);

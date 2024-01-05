@@ -16,7 +16,7 @@ public class WordSearch {
 
     private void loadVowels() {
         list.put(vowels[0], 2);
-        list.put(vowels[1], 4);
+        list.put(vowels[1], 3);
         list.put(vowels[2], 1);
         list.put(vowels[3], 1);
         list.put(vowels[4], 1);
@@ -39,7 +39,7 @@ public class WordSearch {
 
     }
 
-    public void consonantOccurence(int count) {
+    public void characterOccurence(int count) {
 
     }
 
