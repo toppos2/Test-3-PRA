@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class WordSearch {
     private int resultCount;
-    private HashSet<Integer> result = new HashSet<>();
+    private HashSet<String> result = new HashSet<>();
     private String[] vowels = new String[]{"A", "E", "I", "O", "U", "Y"};
     private String[] consonants = new String[]{"B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "R", "S", "T", "V", "W", "Z"};
     private HashMap<String, Integer> list = new HashMap<>();
