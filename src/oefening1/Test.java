@@ -5,7 +5,7 @@ public class Test {
         WordSearch w = new WordSearch();
         w.showList();
         System.out.println("Overview characters in list");
-        w.showCharactersInList();
+        w.showConsonantsInList();
         System.out.println("Overview consonants NOT in list");
         w.showConsonantsNotInList();
         System.out.println("Overview characters in list with a given occurence");
