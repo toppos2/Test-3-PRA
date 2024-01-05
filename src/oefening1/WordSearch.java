@@ -1,5 +1,6 @@
 package oefening1;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Random;
 
@@ -30,7 +31,7 @@ public class WordSearch {
         }
     }
 
-    public void showConsonantsInList() {
+    public void showCharactersInList() {
 
     }
 
