@@ -30,20 +30,20 @@ public class WordSearch {
         }
     }
 
-    public void showCharactersInList() {
+    public void showConsonantsInList() {
 
     }
 
-    public void showCharactersNotInList() {
+    public void showConsonantsNotInList() {
 
     }
 
-    public void characterOccurence(int count) {
+    public void consonantOccurence(int count) {
 
     }
 
-    public boolean removeHighest() {
-        return false;
+    public void removeHighest() {
+
     }
 
     public void showList() {
