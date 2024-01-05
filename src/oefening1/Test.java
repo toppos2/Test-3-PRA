@@ -13,6 +13,5 @@ public class Test {
         w.characterOccurence(3);
         System.out.println("Removing highest occurence characters");
         w.removeHighest();
-        w.showList();
     }
 }
