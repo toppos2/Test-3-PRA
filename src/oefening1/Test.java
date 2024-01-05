@@ -9,8 +9,8 @@ public class Test {
         System.out.println("Overview consonants NOT in list");
         w.showConsonantsNotInList();
         System.out.println("Overview consonants in list with a given occurence");
-        w.consonantOccurence(2);
-        w.consonantOccurence(3);
+        w.characterOccurence(2);
+        w.characterOccurence(3);
         System.out.println("Removing highest occurence characters");
         w.removeHighest();
     }
