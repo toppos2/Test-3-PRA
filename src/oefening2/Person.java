@@ -20,6 +20,6 @@ abstract public class Person implements ILength {
 
     @Override
     public String toString() {
-        return name + " (ID: " + id + "), length: " + String.format(Locale.US,"%.2f", this.getName());
+        return name + " (ID: " + id + "), length: " + String.format(Locale.US,"%.2f", this.getLength());
     }
 }
