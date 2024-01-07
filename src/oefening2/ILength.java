@@ -1,4 +1,4 @@
 package oefening2;
 public interface ILength {
-    double getLength();
+    int getLength();
 }
