@@ -6,7 +6,6 @@ abstract public class Person implements ILength {
     private static int COUNTER = 100;
     private final int id;
     private String name;
-    private double length;
 
     public Person(String name) {
         COUNTER++;
