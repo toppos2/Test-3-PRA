@@ -41,7 +41,7 @@ public class WordSearch {
 
     }
 
-    public void characterOccurence(int count) {
+    public void characterMinimalOccurence(int count) {
 
     }
 
