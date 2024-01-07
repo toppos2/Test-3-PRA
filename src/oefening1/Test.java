@@ -11,7 +11,7 @@ public class Test {
         System.out.println("Overview characters in list with a given MINIMAL occurence");
         w.characterMinimalOccurence(2);
         w.characterMinimalOccurence(3);
-        System.out.println("Removing highest occurence characters");
+        System.out.println("Is is possible to write the word?");
         w.checkWord("BAL");
         w.checkWord("WORD");
         w.checkWord("SYSTEEM");
