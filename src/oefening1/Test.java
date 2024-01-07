@@ -8,7 +8,7 @@ public class Test {
         w.showConsonantsInList();
         System.out.println("Overview consonants NOT in list");
         w.showConsonantsNotInList();
-        System.out.println("Overview characters in list with a given occurence");
+        System.out.println("Overview characters in list with a given MINIMAL occurence");
         w.characterMinimalOccurence(2);
         w.characterMinimalOccurence(3);
         System.out.println("Removing highest occurence characters");
