@@ -13,8 +13,8 @@ public class Test {
         w.characterMinimalOccurence(3);
         System.out.println("Is is possible to write the word?");
         w.checkWord("BAL");
-        w.checkWord("WORD");
-        w.checkWord("SYSTEEM");
+        w.checkWord("word");
+        w.checkWord("SYSteem");
         w.checkWord("ABONNEMENT");
     }
 }
