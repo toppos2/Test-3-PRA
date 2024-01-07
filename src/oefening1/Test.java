@@ -15,6 +15,6 @@ public class Test {
         w.checkWord("BAL");
         w.checkWord("WORD");
         w.checkWord("SYSTEEM");
-        w.showList();
+        w.checkWord("ABONNEMENT");
     }
 }
