@@ -45,7 +45,7 @@ public class WordSearch {
 
     }
 
-    public void removeHighest() {
+    public void checkWord(String word) {
 
     }
 

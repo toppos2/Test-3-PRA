@@ -12,7 +12,9 @@ public class Test {
         w.characterMinimalOccurence(2);
         w.characterMinimalOccurence(3);
         System.out.println("Removing highest occurence characters");
-        w.removeHighest();
+        w.checkWord("BAL");
+        w.checkWord("WORD");
+        w.checkWord("SYSTEEM");
         w.showList();
     }
 }
