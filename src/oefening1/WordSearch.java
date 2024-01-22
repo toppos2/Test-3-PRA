@@ -34,6 +34,11 @@ public class WordSearch {
     }
 
     public void showConsonantsInList() {
+        for (String consonant : consonants) {
+            if (list.containsKey(consonant)) {
+                System.out.println("  " + consonant + " occurs " + list.get(consonant) + " times");
+            }
+        }
 
     }
 
