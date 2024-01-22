@@ -43,7 +43,9 @@ public class WordSearch {
     }
 
     public void showConsonantsNotInList() {
-
+        consonants.stream()
+                .filter(consonant -> !list.containsKey(consonant))
+                .forEach(consonants-> System.out.println(" " + consonants +"  doesn't occur"));
     }
 
     public void characterMinimalOccurence(int count) {
