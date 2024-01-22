@@ -23,6 +23,11 @@ public class Test {
         System.out.println(s2);
         System.out.println(s3);
         System.out.println(s4);
+
+        Lector l1 = new Lector("Marc", "Thomas More");
+        Lector l2 = new Lector("Rodrigue", "Thomas More");
+        System.out.println(l1);
+        System.out.println(l2);
     }
 
 
