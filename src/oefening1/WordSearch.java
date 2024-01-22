@@ -49,7 +49,23 @@ public class WordSearch {
     }
 
     public void characterMinimalOccurence(int count) {
+        result.clear();
+        resultCount = count;
+        for (Map.Entry<String, Integer> entry : list.entrySet()) {
+            if (entry.getValue() >= count) {
+                result.add(entry.getKey());
+            }
+        }
+      printResult();
+    }
 
+    private void printResult() {
+        System.out.println("Overview characters in list with a given MINIMAL occurrence");
+        System.out.println("These characters occur MINIMAL " + resultCount + " times");
+        for (String car:result) {
+            System.out.println("  "+car);
+
+        }
     }
 
     public void checkWord(String word) {
